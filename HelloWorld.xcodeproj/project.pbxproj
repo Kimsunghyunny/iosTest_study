@@ -15,6 +15,7 @@
 		B1EE432026BA6372006A0A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EE431E26BA6372006A0A82 /* LaunchScreen.storyboard */; };
 		B1EE432B26BA6372006A0A82 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE432A26BA6372006A0A82 /* HelloWorldTests.swift */; };
 		B1EE433626BA6372006A0A82 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE433526BA6372006A0A82 /* HelloWorldUITests.swift */; };
+		B1EE434426BA7DEF006A0A82 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EE434326BA7DEF006A0A82 /* LaunchScreen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B1EE433126BA6372006A0A82 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EE433526BA6372006A0A82 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		B1EE433726BA6372006A0A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EE434326BA7DEF006A0A82 /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B1EE431C26BA6372006A0A82 /* Assets.xcassets */,
 				B1EE431E26BA6372006A0A82 /* LaunchScreen.storyboard */,
 				B1EE432126BA6372006A0A82 /* Info.plist */,
+				B1EE434326BA7DEF006A0A82 /* LaunchScreen2.storyboard */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EE434426BA7DEF006A0A82 /* LaunchScreen2.storyboard in Resources */,
 				B1EE432026BA6372006A0A82 /* LaunchScreen.storyboard in Resources */,
 				B1EE431D26BA6372006A0A82 /* Assets.xcassets in Resources */,
 				B1EE431B26BA6371006A0A82 /* Main.storyboard in Resources */,
