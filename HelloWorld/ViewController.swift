@@ -25,9 +25,17 @@ class ViewController: UIViewController {
     @IBAction func moveNext(_ sender: Any) {
         let uvc = self.storyboard!.instantiateViewController(withIdentifier: "secondVC")
         
-        uvc.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
+        //uvc.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
         
         self.present(uvc, animated: true)
+    }
+    
+    @IBAction func moveByNavi(_ sender: Any) {
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "secondVC") else{
+            return
+        }
+        
+        self.navigationController?.pushViewController(uvc, animated: true)
     }
 }
 

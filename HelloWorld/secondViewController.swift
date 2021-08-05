@@ -14,6 +14,11 @@ class secondViewController:UIViewController{
         self.presentingViewController?.dismiss(animated:true)
     }
     
+    @IBAction func back2(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    
     @IBAction func lb1change(_ sender: Any) {
         self.lb1.text = "버튼을 눌렀습니다."
     }
