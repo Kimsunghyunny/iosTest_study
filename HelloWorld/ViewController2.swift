@@ -1,4 +1,26 @@
 //
+//  ViewController2.swift
+//  HelloWorld
+//
+//  Created by SungHyun Kim on 2021/08/05.
+//
+
+import SwiftUI
+
+struct ViewController2: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct ViewController2_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewController2()
+    }
+}
+
+
+//
 //  ViewController.swift
 //  HelloWorld
 //
@@ -22,12 +44,5 @@ class ViewController: UIViewController {
         self.uiTitle.text = "Hello, World!"
     }
     
-    @IBAction func moveNext(_ sender: Any) {
-        let uvc = self.storyboard!.instantiateViewController(withIdentifier: "secondVC")
-        
-        uvc.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
-        
-        self.present(uvc, animated: true)
-    }
 }
 
